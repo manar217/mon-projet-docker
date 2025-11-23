@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = 'monnom/mon-app:latest'
+        DOCKER_IMAGE = 'galaizar/mon-app:latest'
     }
     stages {
         stage('Build Docker Image') {
